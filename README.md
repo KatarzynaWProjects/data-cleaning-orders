@@ -26,7 +26,7 @@ W danych wejściowych występowały błędy typowe dla danych operacyjnych:
 - raw_data.csv – (opcjonalnie) dane źródłowe
 
 ## Efekt
-Dane wyczyszczone zostały zapisane jako widok `clean_orders`, gotowy do analizy.
+Dane wyczyszczone zostały zapisane jako widok 'clean_orders', gotowy do analizy.
 
 ## Autor
 Katarzyna Wróblewska
