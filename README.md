@@ -28,6 +28,14 @@ W danych wejściowych występowały błędy typowe dla danych operacyjnych:
 ## Efekt
 Dane wyczyszczone zostały zapisane jako widok 'clean_orders', gotowy do analizy.
 
+### Przykład: dane przed czyszczeniem
+### Przykład: dane po czyszczeniu (widok clean_orders)
+### Przykład zastosowania widoku
+
+SELECT * 
+FROM clean_orders 
+  WHERE quantity >= '2';
+
 ## Autor
 Katarzyna Wróblewska
 katarzynawroblewska.data@gmail.com
