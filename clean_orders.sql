@@ -1,7 +1,6 @@
 -- czyszczenie danych zamówień 
 -- źródło tabela customers_orders
 
-==================================
 SELECT order_id,
 -- czysczenie nazw klientów
 	CASE 
@@ -37,4 +36,3 @@ SELECT order_id,
 		ELSE TRIM(price) END AS price
 FROM customers_orders;
 
-==================================
