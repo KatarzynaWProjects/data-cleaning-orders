@@ -30,8 +30,9 @@ Dane wyczyszczone zostały zapisane jako widok 'clean_orders', gotowy do analizy
 
 ### Przykład: dane przed czyszczeniem
 ### Przykład: dane po czyszczeniu (widok clean_orders)
-### Przykład zastosowania widoku
 
+### Przykład zastosowania widoku
+ 
 SELECT * 
 FROM clean_orders 
   WHERE quantity >= '2';
