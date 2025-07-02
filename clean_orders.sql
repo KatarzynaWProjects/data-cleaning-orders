@@ -31,8 +31,8 @@ SELECT order_id,
 		ELSE LOWER(TRIM(status)) END AS status,
 --czyszczenie cen
 	CASE 
-		WHEN price IN ('zero', 'NaN') OR LENGTH(TRIM(price)) = 0 THEN '0'
-		WHEN price IN ('fifteen') THEN '15,00'
-		ELSE TRIM(price) END AS price
+		WHEN price IN ('zero', 'NaN') OR LENGTH(TRIM(price)) = 0 THEN '0' -- ujednolicenie brakujących wyników 
+		WHEN price IN ('fifteen') THEN '15,00' -- zmiana słownie podanej liczby na liczbe 
+		ELSE REGEXP_REPLACE(TRIM(price), '\s*zł', '', 'gi') END AS price -- usuwanie spacji i 'zł' na końcu oraz 'gi' - ignorowanie wielkości liter (Zł, zł, ZŁ)
 FROM customers_orders;
 
