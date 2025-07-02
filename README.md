@@ -28,7 +28,17 @@ W danych wejściowych występowały błędy typowe dla danych operacyjnych:
 ## Efekt
 Dane wyczyszczone zostały zapisane jako widok 'clean_orders', gotowy do analizy.
 
-### Przykład: dane przed czyszczeniem
+### Przykład: dane przed czyszczeniem ('customers_orders')
+
+Zrzut ekranu przedstawia przykładowe rekordy z tabeli wejściowej przed czyszczeniem. Występują m.in.:
+- niejednolite formaty dat (np. '12-06-2023', '2023/06/15', NULL),
+- liczby zapisane słownie ('three', 'two') lub niepoprawnie ('-1', '0'),
+- ceny zawierające tekst ('zero', 'NaN', '15.99 zł'),
+- statusy w różnych wersjach ('del.', 'DELIVERED', pustki),
+- tytuły w nazwach klientów ('Pan', 'Pani', spacje, NULL).
+
+![Dane surowe](output_table_customers_orders.png)
+
 ## Efekt po czyszczeniu danych
 
 Poniżej przykład widoku 'clean_orders' z oczyszczonymi danymi:
