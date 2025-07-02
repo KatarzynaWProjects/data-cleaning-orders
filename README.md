@@ -29,7 +29,11 @@ W danych wejściowych występowały błędy typowe dla danych operacyjnych:
 Dane wyczyszczone zostały zapisane jako widok 'clean_orders', gotowy do analizy.
 
 ### Przykład: dane przed czyszczeniem
-### Przykład: dane po czyszczeniu (widok clean_orders)
+## Efekt po czyszczeniu danych
+
+Poniżej przykład widoku 'clean_orders' z oczyszczonymi danymi:
+
+![clean_orders](clean_orders_preview.png)
 
 ### Przykład zastosowania widoku
  
