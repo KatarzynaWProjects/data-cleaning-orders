@@ -1,7 +1,7 @@
 # data-cleaning-orders
 Projekt SQL czyszczenia danych zamówień (PostgreSQL)
 
-Ten projekt przedstawia podstawpwe sposób czyszczenia nieuporządkowanych danych z zamówień klientów przy użyciu SQL w PostgreSQL. 
+Ten projekt przedstawia podstawowy sposób czyszczenia nieuporządkowanych danych z zamówień klientów przy użyciu SQL w PostgreSQL. 
 W danych wejściowych występowały błędy typowe dla danych operacyjnych: 
 -różne formaty dat, 
 -tekstowe wartości liczbowe, 
