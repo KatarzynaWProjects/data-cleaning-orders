@@ -41,6 +41,11 @@ SELECT *
 FROM clean_orders 
   WHERE quantity >= '2';
 
+## Uwaga dotycząca danych
+
+Wszystkie dane użyte w tym projekcie są całkowicie fikcyjne.  
+Zostały wymyślone na potrzeby nauki i nie zawierają żadnych informacji wrażliwych ani danych osobowych.
+
 ## Autor
 Katarzyna Wróblewska
 katarzynawroblewska.data@gmail.com
