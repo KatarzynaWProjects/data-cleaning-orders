@@ -41,7 +41,7 @@ SELECT *
 FROM clean_orders 
   WHERE quantity >= '2';
 
-![clean_orders](clean_orders_preview.png)
+![clean_orders](filtered_clean_orders.png)
 
 ## Uwaga dotycząca danych
 
